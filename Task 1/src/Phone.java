@@ -1,5 +1,5 @@
 public class Phone {
-    int number;
+    String number;
     String model;
     static String countryMadeOf = "China";
 
@@ -7,12 +7,12 @@ public class Phone {
 
     }
 
-    public Phone(int number, String model){
+    public Phone(String number, String model){
         this.number = number;
         this.model = model;
     }
 
-    public void recieveCall(String nameCaller, int numberCaller){
+    public void recieveCall(String nameCaller, String numberCaller){
         System.out.println("Звонит абонент по имени " + nameCaller + " номер " + numberCaller);
     }
 }
