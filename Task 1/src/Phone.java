@@ -13,6 +13,6 @@ public class Phone {
     }
 
     public void recieveCall(String nameCaller, String numberCaller){
-        System.out.println("Звонит абонент по имени " + nameCaller + " номер " + numberCaller);
+        System.out.println(nameCaller.equals("") ? numberCaller : ("Звнит абонент по имени " + nameCaller) + " номер " + numberCaller);
     }
 }

@@ -9,6 +9,6 @@ public class Main {
         System.out.println("The phone number " + samsung.number + " and model " + samsung.model);
 
         iPhone.recieveCall("Marlen", "87083111247");
-        samsung.recieveCall("Arsen", "870831113");
+        samsung.recieveCall("", "870831113");
     }
 }
